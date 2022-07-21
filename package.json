@@ -1,0 +1,25 @@
+{
+  "name": "kafka-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:producer": "nodemon ./producer/producer.js",
+    "start:consumer1": "nodemon ./consumer1/con1.js",
+    "start:consumer2": "nodemon ./consumer2/con2.js",
+    "start:consumer3": "nodemon ./consumer3/con3.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "avsc": "^5.7.4",
+    "chance": "^1.1.8",
+    "kafka": "^0.2.3",
+    "kafka-node": "^5.0.0",
+    "kafkajs": "^2.1.0"
+  }
+}
